@@ -1,0 +1,23 @@
+2024-10-07 16:01:19,733 | WARNING | Неверный тип данных для Runner
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\PycharmProjects\Homeworks\Module_12\for_logging.py", line 38, in test_run
+    self.assertEqual(second.distance, 100)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python312\Lib\unittest\case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python312\Lib\unittest\case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 200 != 100
+2024-10-07 16:01:19,735 | INFO | 'test_walk' выполнен успешно
+2024-10-07 16:01:19,735 | WARNING | Неверная скорость для Runner
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\PycharmProjects\Homeworks\Module_12\for_logging.py", line 24, in test_walk
+    self.assertEqual(first.distance, 50)
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.4\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python312\Lib\unittest\case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python312\Lib\unittest\case.py", line 878, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: -1000 != 50
